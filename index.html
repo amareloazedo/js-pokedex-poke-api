@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./src/css/main-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Pokédex</h1>
+        <ol id="poke-list" class="poke-list">
+        </ol>
+        <div class="pagination">
+            <button type="button" id="loadMoreButton">Load More</button>
+        </div>
+    </main>
+    <script src="./src/js/poke-model.js"></script>
+    <script src="./src/js/poke-api.js"></script>
+    <script type="module" src="./src/js/pokedex.js"></script>
+</body>
+</html>
